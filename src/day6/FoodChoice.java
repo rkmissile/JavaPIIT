@@ -19,7 +19,7 @@ public class FoodChoice {
 //
 //
 
-        for(int x=0; x<5; x++){
+        for(int x=0; x<foods.length; x++){
 
             Scanner scanFood= new Scanner(System.in);
             //String[] foods = new String[5];
@@ -32,7 +32,7 @@ public class FoodChoice {
 
         Random random= new Random();
 
-        int y= random.nextInt(foods.length);
+        int y= random.nextInt(foods.length-1);
 
         System.out.println("Thanks for your food choices.Today's surprise food for you is>>>>>");
 

@@ -1,2 +1,4 @@
-package Mentoring;public class JavaClassMethodObject {
+package Mentoring;
+
+public class JavaClassMethodObject {
 }

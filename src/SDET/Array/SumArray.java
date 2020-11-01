@@ -1,4 +1,4 @@
-package SDET;
+package SDET.Array;
 
 public class SumArray {
     public static void main(String[] args) {
